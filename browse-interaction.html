@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Pill Interaction</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./BST5/css/bootstrap.min.css" />
+  </head>
+  <body class="interact">
+    <nav class="navbar navbar-expand-lg bg-secondary shadow text-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="/images/log2.png" alt="Bootstrap" width="90" />
+        </a>
+        <a class="title" href="home.html">DPill</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="browse-detection.html"
+                    >pill detection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="browse-interaction.html"
+                    >pill interaction</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contantus.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="profile.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-user"></i> Profile
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="profile.html">Settings </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h1>Pill Interaction</h1>
+      <h2>Enter Image of Two pills</h2>
+      <div class="browse-interact">
+        <div class="header">
+          <svg
+            class="svg"
+            id="browseButton"
+            style="color: white"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+              fill="white"
+            ></path>
+          </svg>
+          <p style="margin-top: 5px">Pill 1</p>
+          <input
+            type="file"
+            id="pillImageInput"
+            accept="image/*"
+            style="display: none"
+          />
+        </div>
+        <div class="header">
+          <svg
+            class="svg"
+            id="browseButton2"
+            style="color: white"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+              fill="white"
+            ></path>
+          </svg>
+          <p style="margin-top: 5px">Pill 2</p>
+          <input
+            type="file"
+            id="pillImageInput2"
+            accept="image/*"
+            style="display: none"
+          />
+        </div>
+      </div>
+      <button class="interactButton">
+        <a href="pill-interaction.html">Interact</a>
+      </button>
+      <label for="file" class="detect-footer mb-5">
+        <button class="pillName">
+          <a href="pillName-interaction.html">With Pill Name</a>
+        </button>
+        <button id="cancelButton" class="cancelButton mb-5">Cancel</button>
+      </label>
+    </div>
+    <footer class="foot text-center">
+      <p>&copy; 2024 Pill Detection. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="./BST5/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

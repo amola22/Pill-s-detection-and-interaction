@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dosage Checker Result</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./BST5/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary shadow text-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="/images/log2.png" alt="Bootstrap" width="90" />
+        </a>
+        <a class="title" href="home.html">DPill</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="browse-detection.html"
+                    >pill detection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="browse-interaction.html"
+                    >pill interaction</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contantus.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="profile.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-user"></i> Profile
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="profile.html">Settings </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="dosage-result-container mb-4">
+      <h1>Dosage Checker</h1>
+      <img src="images/pill1.png" alt="" />
+      <h1 style="margin-top: 0rem">Algopyrin 500 mg</h1>
+      <div class="card">
+        <ul style="list-style-type: disc">
+          <li>
+            Recommended dosage: Take one Algoflex forte dolo 400 mg pill in the
+            evening, about 30 minutes before bedtime.
+          </li>
+          <li>
+            It is important not to exceed the recommended dosage to prevent
+            excessive drowsiness or sedation.
+          </li>
+          <li>
+            Tranquilisleep is formulated to promote relaxation and restful
+            sleep, so it is best taken before bedtime to support a peaceful
+            night's rest.
+          </li>
+        </ul>
+      </div>
+      <button class="backBtn" type="submit" style="text-align: center">
+        <a href="pill-detection.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            stroke-width="1"
+            width="20"
+            height="20"
+            fill="rgba(119, 171, 156, 1)"
+          >
+            <path
+              d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z"
+            />
+          </svg>
+          Back</a
+        >
+      </button>
+    </div>
+    <footer class="foot text-center">
+      <p>&copy; 2024 Pill Detection. All rights reserved.</p>
+    </footer>
+    <script src="./BST5/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

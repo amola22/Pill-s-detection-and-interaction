@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./BST5/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary shadow text-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="/images/log2.png" alt="Bootstrap" width="90" />
+        </a>
+        <a class="title" href="home.html">DPill</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="browse-detection.html"
+                    >pill detection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="browse-interaction.html"
+                    >pill interaction</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contantus.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="profile.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-user"></i> Profile
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="profile.html">Settings </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style="padding-top: 30px">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="profile-info">
+            <h2>User Profile</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Profile Picture"
+                  class="img-fluid rounded-circle"
+                />
+              </div>
+              <div class="col-md-8">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> johndoe@example.com</p>
+                <p><strong>History:</strong> Premium</p>
+                <p><strong>Subscription Expiry:</strong> January 31, 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-secondary"
+          style="
+            width: 20%;
+            font-weight: bold;
+            background-color: white;
+            color: rgba(119, 171, 156, 1);
+
+            border-radius: 20px;
+            box-shadow: #d8d6d66b 0px 20px 10px -15px;
+            border: 1px solid #77ab9c;
+            transition: all 0.2s ease-in-out;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 32rem;
+            cursor: pointer;
+          "
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+
+    <footer class="foot text-center mt-5">
+      <p>&copy; 2024 Pill Detection. All rights reserved.</p>
+    </footer>
+    <script src="./BST5/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
